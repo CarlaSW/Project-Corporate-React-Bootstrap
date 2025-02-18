@@ -1,0 +1,28 @@
+.info {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Black with 50% transparency */
+  color: white;
+  position: absolute;
+  top: 170px;
+  width: 375px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  text-align: center;
+  transition: ease-in-out 0.2s;
+}
+.info:hover {
+}
+.container {
+  position: relative;
+  cursor: pointer;
+
+  margin-bottom: 30px;
+}
+.container:hover .info {
+  opacity: 1;
+}
+.title {
+  color: #f64b4b;
+}
