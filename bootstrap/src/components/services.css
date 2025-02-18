@@ -1,0 +1,21 @@
+.icon {
+  color: #f64b4b;
+  font-size: 30px;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+.services {
+  margin-top: 80px;
+}
+.title {
+  text-align: center;
+}
+.card {
+  margin-bottom: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+.card:hover {
+  transform: rotateY(10deg) scale(1.05); /* Rotate slightly and scale */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
