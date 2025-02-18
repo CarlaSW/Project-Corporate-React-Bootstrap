@@ -1,0 +1,10 @@
+.brand-name,
+.brand-name:hover,
+.brand-name:active {
+  color: #f64b4b;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-right: 600px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
